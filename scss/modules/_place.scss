@@ -1,0 +1,21 @@
+.place {
+    background-color: #666666;
+    min-height: 337px;
+
+    
+    &__icon {
+        @include size(60px);
+        position: absolute;
+        right: 60%;
+        top: 100px;
+    }
+
+    &__text {
+        font-size: 36px;
+        font-family: $aleo;
+        color: $white;
+        margin-top: 191px;
+
+        
+    }
+}

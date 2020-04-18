@@ -1,6 +1,7 @@
 .choose {
   background: url("../images/choose.jpg") no-repeat;
-  height: 100vh;
+  background-size: cover;
+  height: 80vh;
   position: relative;
 
   &__info {
@@ -17,36 +18,36 @@
   }
 
   &__text {
-      font-size: 16px;
+    font-size: 16px;
     font-family: $Josefin;
     max-width: 530px;
     line-height: 1.63;
-  letter-spacing: 1.6px;
-  padding-bottom: 48px;
+    letter-spacing: 1.6px;
+    padding-bottom: 48px;
   }
 
   &__button {
     display: inline-block;
-      width: 255px;
-      height: 60px;
-      background-color: #5474fd;
-      text-decoration: none;
-      text-align: center;
-      text-transform: uppercase;
-      color: $white;
-      padding-top: 24px;
-      letter-spacing: 1.2px;
+    width: 255px;
+    height: 60px;
+    background-color: #5474fd;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+    padding-top: 24px;
+    letter-spacing: 1.2px;
   }
 
   &__firstpic {
-     position: absolute; 
-     top: 120px;
-     right: 452px;
+    position: absolute;
+    top: 120px;
+    right: 452px;
   }
 
   &__secondpic {
-      position: absolute;
-      top: 345px;
-      right: 327px;
+    position: absolute;
+    top: 345px;
+    right: 327px;
   }
 }
