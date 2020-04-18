@@ -1,0 +1,39 @@
+.tourist {
+    background: url("../images/travel.jpg") no-repeat;
+  background-size: cover;
+  height: 80vh;
+  font-family: $Josefin;
+  color: $white;
+
+    
+  &__title {
+      font-size: 36px;
+    font-family: $aleo;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 94px;
+  }
+
+  &__leftblock {
+      height: 284px;
+    background: url("../images/tourist.jpg") no-repeat;
+    background-size: cover; 
+  }
+
+  &__rightblock {
+      padding-top: 50px;
+      padding-left: 60px;
+      background-color: #333333;
+  }
+
+  &__leftblock_title {
+      font-size: 20px;
+      text-transform: uppercase;
+      padding-bottom: 33px;
+  }
+
+  &__text {
+      font-size: 16px;
+      line-height: 1.63;
+  }
+}
