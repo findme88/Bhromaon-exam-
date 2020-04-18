@@ -1,0 +1,35 @@
+.navigation {
+ 
+    height: 80px;
+   background-color: #5474fd;
+   display: flex;
+  align-items: center;
+  
+  
+  &__logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1.08;
+    letter-spacing: 2.4px;
+    text-align: left;
+    color: $white;
+    padding-left: 330px;
+    padding-right: 430px;
+   
+  }
+  }
+  
+  .menu {
+    display: flex;
+    
+    &__item {
+      padding-left: 42px;
+    }
+    &__link {
+      text-decoration: none;
+      font-size: 14px;
+      color: $white;
+      text-transform: uppercase;
+    }
+  }

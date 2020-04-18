@@ -1,0 +1,63 @@
+.header {
+  background: url("../images/header.jpg") no-repeat;
+  height: 80vh;
+  position: relative;
+
+  &__title {
+    font-size: 48px;
+    font-weight: bold;
+    color: $white;
+    text-align: center;
+    padding-top: 265px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    line-height: 0.54;
+    letter-spacing: 4.8px;
+  }
+
+  &__tagline {
+    font-size: 22px;
+    color: $white;
+    text-align: center;
+    line-height: 1.18;
+    letter-spacing: 6.82px;
+  }
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+
+  &__area {
+    width: 500px;
+    height: 60px;
+    text-align: center;
+    font-size: 14px;
+    color: #999999;
+    background-color: $white;
+  }
+  &__button {
+    width: 150px;
+    height: 60px;
+    display: flex;
+    border: solid 2px #ffffff;
+    background-color: #5474fd;
+    cursor: pointer;
+  }
+
+  &__but {
+    font-size: 14px;
+    color: $white;
+    padding-top: 8px;
+    padding-left: 36px;
+    padding-right: 15px;
+    text-transform: uppercase;
+  }
+
+  &__icon {
+    background: #ffffff;
+    background-color: #5474fd;
+  }
+}
+

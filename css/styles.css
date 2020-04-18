@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body, html {
+  min-height: 100%;
+  width: 100%;
+}
+
+.clear::after, .clear::before {
+  content: " ";
+  display: table;
+}
+
+.clear::after {
+  clear: both;
+}
+
+.header {
+  background: url("../images/header.jpg") no-repeat;
+  height: 80vh;
+  position: relative;
+}
+
+.header__title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 265px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  line-height: 0.54;
+  letter-spacing: 4.8px;
+}
+
+.header__tagline {
+  font-size: 22px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 1.18;
+  letter-spacing: 6.82px;
+}
+
+.search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 50px;
+}
+
+.search__area {
+  width: 500px;
+  height: 60px;
+  text-align: center;
+  font-size: 14px;
+  color: #999999;
+  background-color: #ffffff;
+}
+
+.search__button {
+  width: 150px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: solid 2px #ffffff;
+  background-color: #5474fd;
+  cursor: pointer;
+}
+
+.search__but {
+  font-size: 14px;
+  color: #ffffff;
+  padding-top: 8px;
+  padding-left: 36px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+.search__icon {
+  background: #ffffff;
+  background-color: #5474fd;
+}
+
+.navigation {
+  height: 80px;
+  background-color: #5474fd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation__logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 1.08;
+  letter-spacing: 2.4px;
+  text-align: left;
+  color: #ffffff;
+  padding-left: 330px;
+  padding-right: 430px;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu__item {
+  padding-left: 42px;
+}
+
+.menu__link {
+  text-decoration: none;
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=styles.css.map */
