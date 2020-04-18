@@ -1,0 +1,30 @@
+.footer {
+  background-color: #232323;
+  font-family: $Josefin;
+  color: $white;
+  min-height: 268px;
+
+  &__title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 120px;
+    text-transform: uppercase;
+  }
+  &__tagline {
+    font-size: 16px;
+    letter-spacing: 1.6px;
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  &__social {
+    text-align: center;
+    padding-top: 30px;
+    
+  }
+
+  &__icon {
+    @include size(15px);
+  }
+}

@@ -461,4 +461,36 @@ body, html {
   font-size: 16px;
   line-height: 1.63;
 }
+
+.footer {
+  background-color: #232323;
+  font-family: "Josefin Sans", sans-serif;
+  color: #ffffff;
+  min-height: 268px;
+}
+
+.footer__title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 120px;
+  text-transform: uppercase;
+}
+
+.footer__tagline {
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.footer__social {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.footer__icon {
+  width: 15px;
+  height: 15px;
+}
 /*# sourceMappingURL=styles.css.map */
