@@ -1,0 +1,52 @@
+.choose {
+  background: url("../images/choose.jpg") no-repeat;
+  height: 100vh;
+  position: relative;
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 204px;
+    font-family: $aleo;
+    color: $white;
+  }
+
+  &__title {
+    font-size: 36px;
+    padding-bottom: 62px;
+  }
+
+  &__text {
+      font-size: 16px;
+    font-family: $Josefin;
+    max-width: 530px;
+    line-height: 1.63;
+  letter-spacing: 1.6px;
+  padding-bottom: 48px;
+  }
+
+  &__button {
+    display: inline-block;
+      width: 255px;
+      height: 60px;
+      background-color: #5474fd;
+      text-decoration: none;
+      text-align: center;
+      text-transform: uppercase;
+      color: $white;
+      padding-top: 24px;
+      letter-spacing: 1.2px;
+  }
+
+  &__firstpic {
+     position: absolute; 
+     top: 120px;
+     right: 452px;
+  }
+
+  &__secondpic {
+      position: absolute;
+      top: 345px;
+      right: 327px;
+  }
+}

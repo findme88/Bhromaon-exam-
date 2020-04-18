@@ -89,6 +89,7 @@ body, html {
   background: url("../images/header.jpg") no-repeat;
   height: 80vh;
   position: relative;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .header__title {
@@ -148,6 +149,7 @@ body, html {
   padding-left: 36px;
   padding-right: 15px;
   text-transform: uppercase;
+  font-family: "Aleo", sans-serif;
 }
 
 .search__icon {
@@ -176,6 +178,8 @@ body, html {
   color: #ffffff;
   padding-left: 330px;
   padding-right: 430px;
+  font-family: "Josefin Sans", sans-serif;
+  text-transform: uppercase;
 }
 
 .menu {
@@ -193,5 +197,64 @@ body, html {
   font-size: 14px;
   color: #ffffff;
   text-transform: uppercase;
+  font-family: "Aleo", sans-serif;
+}
+
+.choose {
+  background: url("../images/choose.jpg") no-repeat;
+  height: 100vh;
+  position: relative;
+}
+
+.choose__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 204px;
+  font-family: "Aleo", sans-serif;
+  color: #ffffff;
+}
+
+.choose__title {
+  font-size: 36px;
+  padding-bottom: 62px;
+}
+
+.choose__text {
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+  max-width: 530px;
+  line-height: 1.63;
+  letter-spacing: 1.6px;
+  padding-bottom: 48px;
+}
+
+.choose__button {
+  display: inline-block;
+  width: 255px;
+  height: 60px;
+  background-color: #5474fd;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 24px;
+  letter-spacing: 1.2px;
+}
+
+.choose__firstpic {
+  position: absolute;
+  top: 120px;
+  right: 452px;
+}
+
+.choose__secondpic {
+  position: absolute;
+  top: 345px;
+  right: 327px;
 }
 /*# sourceMappingURL=styles.css.map */
